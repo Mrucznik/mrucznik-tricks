@@ -25,6 +25,9 @@ You can change ssh port and other settings in `/etc/ssh/sshd_config` file
 ## No password login for root user
 In `/etc/ssh/sshd_config` file: `PermitRootLogin prohibit-password`
 
+## SSH banner
+In `/etc/ssh/sshd_config` file: `Banner /etc/ssh/banner` and paste banner content to this file
+
 ## Install some software
 - [htop](https://linux.die.net/man/1/htop) `apt-get install htop`
 - [docker](https://www.docker.com) `apt-get install docker`
