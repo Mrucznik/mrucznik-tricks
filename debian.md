@@ -32,6 +32,7 @@ In `/etc/ssh/sshd_config` file: `Banner /etc/ssh/banner` and paste banner conten
 - [htop](https://linux.die.net/man/1/htop) `apt-get install htop`
 - [docker](https://www.docker.com) `apt-get install docker`
 - [curl](https://curl.haxx.se/) `apt-get install curl`
+- [fail2ban](https://webinsider.pl/linux-firewall-fail2ban/) `apt-get install fail2ban`
 
 ## UFW Firewall
 I'm too stupid/lazy for pure iptables, so I'm using UFW.
