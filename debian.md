@@ -35,8 +35,8 @@ I'm too stupid/lazy for pure iptables, so I'm using UFW.
 - Installation:
 `apt install ufw`
 - Basic configuration:
-`ufw default deny incoming
-ufw default allow outgoing
-ufw allow ssh_port comment ssh`
+`ufw default deny incoming`
+`ufw default allow outgoing`
+`ufw allow ssh_port comment ssh`
 - List rules
 `ufw status verbose`
