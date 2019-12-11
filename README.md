@@ -1,2 +1,2 @@
 # mrucznik-tricks
-This repository contains described useful tricks
+This repository contains useful cheat sheets/tricks/snippets
