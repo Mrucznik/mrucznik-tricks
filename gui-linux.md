@@ -6,3 +6,6 @@
 
 # System tray extension
 - [argos](https://github.com/p-e-w/argos)
+
+# Docking in system tray
+- [kDocker](https://github.com/user-none/KDocker)
