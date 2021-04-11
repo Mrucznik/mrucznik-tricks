@@ -40,6 +40,17 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 #### [Python](https://www.python.org/)
 
 ```sh
+# Install python 2, python 3 & pip
+sudo apt install python python3 python3-pip
+
+# Set python 3 as default python
+echo "alias python=python3" >> ~/.bash_aliases
+source ~/.bash_aliases
+```
+
+#### [Anaconda](https://www.anaconda.com/)
+
+```sh
 
 ```
 
@@ -62,6 +73,11 @@ sudo snap install deno
 ```
 
 #### [Julia](https://julialang.org/)
+
+```sh
+# With python installer
+
+```
 
 #### C# & .NET Core
 
