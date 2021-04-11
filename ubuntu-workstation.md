@@ -81,7 +81,7 @@ sudo snap install deno
 
 ```
 
-#### C# & .NET Core
+#### [C# & .NET Core](https://docs.microsoft.com/en-US/dotnet/core/install/linux-ubuntu#2010-)
 
 ```sh
 # Add sources
