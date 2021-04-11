@@ -50,12 +50,6 @@ echo "alias python=python3" >> ~/.bash_aliases
 source ~/.bash_aliases
 ```
 
-#### [Anaconda](https://www.anaconda.com/)
-
-```sh
-
-```
-
 #### [Node.js](https://github.com/nodesource/distributions)
 
 ```sh
@@ -148,4 +142,51 @@ sudo apt-get -y install podman
 
 # Verify installation
 sudo podman run hello-world
+```
+
+### IDE
+
+#### [Visual Studio Code](https://code.visualstudio.com/)
+
+```sh
+sudo snap install code --classic
+```
+
+#### [Atom](https://atom.io/) with [Juno](https://junolab.org/) for Julia
+
+```sh
+sudo snap install atom --classic
+```
+
+In Atom, go to Settings (Ctrl+,, or Cmd+, on macOS. Note that this is Control plus comma!) and go to the "Install" panel.
+Type uber-juno into the search box and hit enter. Click the install button on the package of the same name.
+
+#### [JetBrains IDE's](https://www.jetbrains.com)
+
+```sh
+sudo snap install intellij-idea-ultimate --classic
+sudo snap install pycharm-professional --classic
+sudo snap install webstorm --classic
+sudo snap install clion --classic
+sudo snap install goland --classic
+sudo snap install datagrip --classic
+sudo snap install rider --classic
+```
+
+### Others
+
+#### Firefox 
+
+By default installed in ubuntu.
+
+#### Brave
+
+```sh
+sudo snap install brave
+```
+
+#### Spotify
+
+```sh
+sudo snap install spotify
 ```
