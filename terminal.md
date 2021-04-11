@@ -26,7 +26,7 @@ I use Lava color schema and Screen Savvy prompt.
 
 I use [terminator](https://github.com/gnome-terminator/terminator)
 
-### My config
+My config in `~/.config/terminator/config`
 ```
 [global_config]
   always_split_with_profile = True
