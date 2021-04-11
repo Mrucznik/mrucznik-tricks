@@ -8,18 +8,20 @@
 ```sh
 sudo apt install \
   curl \
-  fish \
-  terminator \ 
   net-tools \
   whois \
   htop \ 
-  make \ 
-  cmake \ 
   git-lfs
 ```
 
 
 ### Languages
+
+#### [C/C++](https://www.cplusplus.com/)
+
+```sh
+sudo apt install gcc clang make cmake
+```
 
 #### [Golang](https://github.com/golang/go/wiki/Ubuntu) 
 
