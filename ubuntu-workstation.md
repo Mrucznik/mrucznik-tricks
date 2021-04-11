@@ -144,7 +144,7 @@ sudo apt-get -y install podman
 sudo podman run hello-world
 ```
 
-### IDE
+### IDE's
 
 #### [Visual Studio Code](https://code.visualstudio.com/)
 
@@ -177,7 +177,7 @@ sudo snap install rider --classic
 
 #### Firefox 
 
-By default installed in ubuntu.
+By default installed on ubuntu.
 
 #### Brave
 
