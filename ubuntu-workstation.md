@@ -80,7 +80,8 @@ sudo apt-get update; \
 #### [Java](https://www.java.com/en/download/)
 
 ```sh
-
+# Install openjdk
+sudo apt install openjdk-15-jdk
 ```
 
 ### Tools
