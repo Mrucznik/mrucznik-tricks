@@ -12,7 +12,7 @@ sudo apt install fish
 chsh -s `which fish`
 
 # Turn off welcome message
-set -U fish_greeting ""
+set --erase fish_greeting
 
 # Configure fish
 fish_config
