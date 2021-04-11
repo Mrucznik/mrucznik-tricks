@@ -86,7 +86,7 @@ sudo apt install openjdk-15-jdk
 
 ### Tools
 
-#### Docker
+#### [Docker](https://docs.docker.com/)
 
 ```sh
 # Set up the repository
@@ -114,7 +114,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 sudo docker run hello-world
 ```
 
-#### Podman
+#### [Podman](https://podman.io/)
 
 ```sh
 # Ubuntu 20.10 and newer
