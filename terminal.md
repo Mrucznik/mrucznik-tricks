@@ -4,13 +4,22 @@
 
 I use [fish](https://fishshell.com) - **f**riendly **i**nteractive **sh**ell.
 
-```$ sudo apt install fish ```
+```sh
+# Install fish
+sudo apt install fish 
 
-To use different color schema run:
-` fish_config `
+# Change fish to default shell
+chsh -s `which fish`
+
+# Turn off welcome message
+set -U fish_greeting ""
+
+# Configure fish
+fish_config
+```
+
 I use Lava color schema and Screen Savvy prompt.
 
-To turn off welcome message, type `set -U fish_greeting ""`
 
 ## Terminal - terminator
 
