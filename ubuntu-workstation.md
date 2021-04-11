@@ -77,8 +77,15 @@ sudo snap install deno
 #### [Julia](https://julialang.org/)
 
 ```sh
-# With python installer
+# With jill (python & pip required) for current user
 
+# Install jill
+pip install jill --user -U
+echo "export PATH=~/.local/bin:$PATH" >> ~/.bashrc
+source ~/.bashrc
+
+# Install julia
+jill install 1.6.0
 ```
 
 #### [C# & .NET Core](https://docs.microsoft.com/en-US/dotnet/core/install/linux-ubuntu#2010-)
