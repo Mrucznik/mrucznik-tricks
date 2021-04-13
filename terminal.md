@@ -25,6 +25,24 @@ I use Lava color schema and Screen Savvy prompt.
 ## Terminal - terminator
 
 I use [terminator](https://github.com/gnome-terminator/terminator)
+```sh
+# Installation
+sudo apt install terminator
+
+# Set as default terminal
+sudo update-alternatives --config x-terminal-emulator
+
+# Set 'Open in Terminal' on desktop to open terminator
+gsettings set org.gnome.desktop.default-applications.terminal exec terminator
+
+# Set 'Open in Terminal' in Nautilus to open terminator
+sudo apt install python3-nautilus python3-yaml
+mkdir -p $HOME/.local/share/nautilus-python/extensions
+cd $HOME/.local/share/nautilus-python/extensions
+wget https://raw.githubusercontent.com/mwahlroos/Nautiterm/master/src/nautiterm/open_terminal.py
+sed -i 's/DEFAULT_TERMINAL_EXEC = \'gnome-terminal\'/DEFAULT_TERMINAL_EXEC = \'terminator\'/g' open_terminal.py
+nautilus -q
+```
 
 My config in `~/.config/terminator/config`
 ```
