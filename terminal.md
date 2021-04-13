@@ -21,6 +21,19 @@ fish_config
 
 I use Lava color schema and Screen Savvy prompt.
 
+To configure properly with snap installed jetbrains ide's and workaround error: `error: Unable to open universal variable file '/snap/goland/135/plugins/terminal/fish/fish_variables': Read-only file system`, go to `File->Settings->Tools->Terminal` and changing `Shell Path` to /usr/bin/jetbrains_fish. After that, run:
+```sh
+sudo echo '#!/bin/sh\
+if [ -n "$OLD_XDG_CONFIG_HOME" ]; then\
+  export XDG_CONFIG_HOME="$OLD_XDG_CONFIG_HOME"\
+else\
+  unset XDG_CONFIG_HOME\
+fi\
+exec fish\' > /usr/bin/jetbrains_fish
+sudo chmod +x /usr/bin/jetbrains_fish
+```
+Credits to Alastair Knowles, https://youtrack.jetbrains.com/issue/IDEA-169111
+
 
 ## Terminal - terminator
 
