@@ -45,7 +45,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 ```sh
 # Install python 2, python 3 & pip
-sudo apt install python python3 python3-pip
+sudo apt install python python3 python3-pip python3-virtualenv
 
 # Set python 3 as default python
 echo "alias python=python3" >> ~/.bash_aliases
