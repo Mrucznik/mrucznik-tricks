@@ -11,7 +11,9 @@ sudo apt install \
   net-tools \
   whois \
   htop \ 
-  git-lfs
+  git-lfs \
+  openvpn \
+  gnome-tweaks
 ```
 
 
