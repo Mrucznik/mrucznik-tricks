@@ -41,6 +41,7 @@ mkdir -p $HOME/.local/share/nautilus-python/extensions
 cd $HOME/.local/share/nautilus-python/extensions
 wget https://raw.githubusercontent.com/mwahlroos/Nautiterm/master/src/nautiterm/open_terminal.py
 sed -i 's/DEFAULT_TERMINAL_EXEC = \'gnome-terminal\'/DEFAULT_TERMINAL_EXEC = \'terminator\'/g' open_terminal.py
+sudo apt remove nautilus-extension-gnome-terminal
 nautilus -q
 ```
 
