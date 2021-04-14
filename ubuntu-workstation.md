@@ -28,6 +28,10 @@ sudo apt install gcc clang make cmake
 #### [Golang](https://github.com/golang/go/wiki/Ubuntu) 
 
 ```sh
+# By snap
+sudo snap install go
+
+# By apt on Ubuntu 20.04
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:longsleep/golang-backports
 sudo apt update
