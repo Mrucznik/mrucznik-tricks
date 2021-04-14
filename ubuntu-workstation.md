@@ -133,6 +133,9 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 # Verify installation
 sudo docker run hello-world
+
+# Install additional toolings
+sudo apt install docker-compose
 ```
 
 #### [Podman](https://podman.io/)
@@ -144,6 +147,9 @@ sudo apt-get -y install podman
 
 # Verify installation
 sudo podman run hello-world
+
+# Install additional toolings
+pip3 install podman-compose
 ```
 
 ### IDE's
