@@ -29,7 +29,7 @@ if [ -n "$OLD_XDG_CONFIG_HOME" ]; then\
 else\
   unset XDG_CONFIG_HOME\
 fi\
-exec fish\' > /usr/bin/jetbrains_fish
+exec fish' > /usr/bin/jetbrains_fish
 sudo chmod +x /usr/bin/jetbrains_fish
 ```
 Credits to Alastair Knowles, https://youtrack.jetbrains.com/issue/IDEA-169111
