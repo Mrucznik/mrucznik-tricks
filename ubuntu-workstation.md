@@ -52,8 +52,11 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 sudo apt install python python3 python3-pip python3-virtualenv
 
 # Set python 3 as default python
+# Per user:
 echo "alias python=python3" >> ~/.bash_aliases
 source ~/.bash_aliases
+# Or system wide:
+update-alternatives --install /usr/bin/python python /usr/bin/python3 1
 ```
 
 #### [Node.js](https://github.com/nodesource/distributions)
