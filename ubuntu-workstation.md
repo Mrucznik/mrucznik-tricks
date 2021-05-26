@@ -31,7 +31,7 @@ sudo apt install gcc clang make cmake
 # By snap
 sudo snap install go
 
-# By apt on Ubuntu 20.04
+# By apt on Ubuntu 21.04
 sudo apt install software-properties-common
 sudo add-apt-repository ppa:longsleep/golang-backports
 sudo apt update
@@ -63,7 +63,7 @@ update-alternatives --install /usr/bin/python python /usr/bin/python3 1
 
 ```sh
 # Using Ubuntu
-curl -fsSL https://deb.nodesource.com/setup_15.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
@@ -95,7 +95,7 @@ jill install 1.6.0
 
 ```sh
 # Add sources
-wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+wget https://packages.microsoft.com/config/ubuntu/21.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
 
 # Install
