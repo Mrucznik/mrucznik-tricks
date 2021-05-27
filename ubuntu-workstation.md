@@ -12,7 +12,9 @@ sudo apt install \
   curl \
   net-tools \
   whois \
-  htop \ 
+  htop \
+  iotop \
+  iftop \
   git-lfs \
   openvpn \
   gnome-tweaks
