@@ -1,5 +1,7 @@
 # My ubuntu configuration
 
+I use [Ubuntu 21.04](https://ubuntu.com/blog/ubuntu-21-04-is-here)
+
 
 ## Install packages
 
@@ -205,3 +207,21 @@ sudo snap install brave
 ```sh
 sudo snap install spotify
 ```
+
+## Drivers
+
+### Auto install drivers
+
+```sh
+sudo ubuntu-drivers autoinstall
+```
+
+### Install pipewire sound drivers
+
+Follow the instructions from https://github.com/pipewire-debian/pipewire-debian#add-the-launchpad-ppa
+
+
+
+
+
+
