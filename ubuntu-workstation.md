@@ -43,6 +43,11 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F6BC817356A3D45E
 sudo apt install golang-go
 ```
 
+[Yeagi](https://github.com/traefik/yaegi) interpreter
+```sh
+go get -u github.com/traefik/yaegi/cmd/yaegi
+```
+
 #### [Rust](https://www.rust-lang.org/tools/install)
 
 ```sh
@@ -162,6 +167,23 @@ sudo podman run hello-world
 # Install additional toolings
 pip3 install podman-compose
 ```
+
+#### [Jupyter-Notebook](https://jupyter.org/)
+
+```sh
+sudo apt install jupyter-notebook
+```
+
+[Also with golang](https://github.com/gopherdata/gophernotes)!
+```sh
+env GO111MODULE=on go get github.com/gopherdata/gophernotes
+mkdir -p ~/.local/share/jupyter/kernels/gophernotes
+cd ~/.local/share/jupyter/kernels/gophernotes
+cp "$(go env GOPATH)"/pkg/mod/github.com/gopherdata/gophernotes@v0.7.3/kernel/*  "."
+chmod +w ./kernel.json # in case copied kernel.json has no write permission
+sed "s|gophernotes|$(go env GOPATH)/bin/gophernotes|" < kernel.json.in > kernel.json
+```
+
 
 ### IDE's
 
